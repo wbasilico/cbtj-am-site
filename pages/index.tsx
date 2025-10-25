@@ -183,7 +183,7 @@ export default function Home() {
 
       <div className="fixed-header-offset" id="home">
         {/* HERO */}
-        <section className="relative h-[78vh] min-h-[520px] w-full bg-black">
+        <section className="relative min-h-screen w-full bg-black flex items-center justify-center" id="hero">
           <div
             className="absolute inset-0 bg-center bg-cover"
             style={{ backgroundImage: "url('/hero/hero.jpg')" }}
