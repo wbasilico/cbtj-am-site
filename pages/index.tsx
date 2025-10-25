@@ -80,23 +80,24 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-20 items-center justify-between">
             <a href="#home" className="flex items-center gap-3 group" aria-label="Ir para a Home">
-                <img
-                  src="/logo.png"
-                  alt="CBTJ-AM"
-                  className="h-12 w-12 rounded-lg object-contain border border-gray-300"
-                />
-              <div className="leading-tight">
-                <div
-                  className="text-xl"
-                  style={{ color: COLORS.blue, fontFamily: 'Arial, sans-serif', fontWeight: 800 }}
-                >
-                  CBTJ-AM
-                </div>
-                <div className="text-[12px] sm:text-xs font-light" style={{ color: COLORS.blue }}>
-                  Clube de Benefícios do Tribunal de Justiça do Amazonas
-                </div>
-              </div>
-            </a>
+              <img
+              src="/logo-cbtj.png"
+              alt="CBTJ-AM"
+              className="h-12 w-auto object-contain"
+              />
+          <div className="leading-tight">
+          <div
+          className="text-xl"
+            style={{ color: '#245894', fontFamily: 'Arial, sans-serif', fontWeight: 800 }}
+    >
+      CBTJ-AM
+    </div>
+    <div className="text-[12px] sm:text-xs font-light" style={{ color: '#245894' }}>
+      Clube de Benefícios do Tribunal de Justiça do Amazonas
+    </div>
+  </div>
+</a>
+
 
             <nav className="hidden md:flex items-center gap-2">
               {[
