@@ -81,7 +81,12 @@ export default function Home() {
           <div className="flex h-20 items-center justify-between">
             <a href="#home" className="flex items-center gap-3 group" aria-label="Ir para a Home">
               <div className="h-12 w-12 shrink-0 rounded-lg bg-gray-200 border border-gray-300 grid place-items-center">
-                <span className="text-xs text-gray-500">LOGO</span>
+                <img
+                  src="/logo-cbtj.png"
+                  alt="CBTJ-AM"
+                  className="h-12 w-12 rounded-lg object-contain border border-gray-300"
+                />
+
               </div>
               <div className="leading-tight">
                 <div
