@@ -183,7 +183,7 @@ export default function Home() {
         <section className="relative h-[78vh] min-h-[520px] w-full bg-black">
           <div
             className="absolute inset-0 bg-center bg-cover"
-            style={{ backgroundImage: "url('/hero/hero-placeholder.jpg')" }}
+            style={{ backgroundImage: "url('/hero/hero.jpg')" }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-500/50" />
 
