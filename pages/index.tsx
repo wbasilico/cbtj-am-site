@@ -82,7 +82,7 @@ export default function Home() {
             <a href="#home" className="flex items-center gap-3 group" aria-label="Ir para a Home">
               <div className="h-12 w-12 shrink-0 rounded-lg bg-gray-200 border border-gray-300 grid place-items-center">
                 <img
-                  src="/logo-cbtj.png"
+                  src="/logo.png"
                   alt="CBTJ-AM"
                   className="h-12 w-12 rounded-lg object-contain border border-gray-300"
                 />
