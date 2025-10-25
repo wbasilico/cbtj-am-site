@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global helpers */
+.accent-red { color: #c73633; font-weight: 700; }
+.title-style { color: #245894; font-weight: 800; text-align: center; }
+.fixed-header-offset { padding-top: 84px; }
